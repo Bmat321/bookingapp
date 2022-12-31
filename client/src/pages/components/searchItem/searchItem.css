@@ -1,0 +1,110 @@
+.seacT{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sIm{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.desI{
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    flex: 2;
+}
+
+.detI{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.dOne{
+    font-size: 20px;
+    color: green;
+}
+.dTwo{
+    font-size: 12px;
+}
+
+.dThree{
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.dFour{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dFive{
+    font-size: 12px;
+    
+}
+
+.dSix{
+    color: green;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.dSeve{
+    color: green;
+    
+    font-size: 12px;
+}
+
+.dR{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dR>span{
+    font-weight: 500;
+}
+.dR>button{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.dText{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: right;
+}
+
+.dPrice{
+    font-size: 24px;
+}
+
+.dTax{
+font-size: 12px;
+color: green;
+}
+
+.dAva{
+    background-color: green;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}

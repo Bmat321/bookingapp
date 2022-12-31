@@ -1,0 +1,42 @@
+.pTwo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    gap: 20px;
+}
+
+.pItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fImg{
+    width: 100%;
+}
+
+.pName{
+    font-weight: bold;
+}
+
+.pCity{
+    font-weight: 300;
+}
+
+.pPrice{
+    font-weight: 500;
+}
+
+.pRating>button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.pRating>span{
+ font-size: 14px;
+}

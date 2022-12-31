@@ -1,0 +1,34 @@
+.login {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    outline: none;
+  }
+
+  button {
+    width: 200px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: green;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  span {
+    font-size: 12px;
+    margin-top: 10px;
+    color: red;
+  }
+}
