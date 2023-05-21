@@ -1,17 +1,17 @@
 import React, { useContext } from "react";
-import Login from "./pages/login/Login";
-import Single from "./pages/single/Single";
-import New from "./pages/new/New";
-import List from "./pages/list/List";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Home from "./pages/home/Home";
-import { productInputs, userInputs } from "./formSource";
-import "./pages/style/dark.scss";
-import { DarkModeContext } from "./context/DarkModeContext";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { AuthContext } from "./context/AuthContext";
-import { hotelColumns, userColumns, roomColumns } from "./datatablesource";
+import { DarkModeContext } from "./context/DarkModeContext";
+import { hotelColumns, roomColumns, userColumns } from "./datatablesource";
+import { userInputs } from "./formSource";
+import Home from "./pages/home/Home";
+import List from "./pages/list/List";
+import Login from "./pages/login/Login";
+import New from "./pages/new/New";
 import NewHotel from "./pages/newHotel/NewHotel";
 import NewRoom from "./pages/newRoom/NewRoom";
+import Single from "./pages/single/Single";
+import "./pages/style/dark.scss";
 
 const App = () => {
   const { darkMode } = useContext(DarkModeContext);
